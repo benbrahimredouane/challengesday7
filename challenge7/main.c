@@ -11,7 +11,7 @@ int main(){
     Date date;
     p = &date ;
     printf("saisir la date complet dd/mm/ans \n");
-    
+
     scanf("%d",&p->jour);
     
     scanf("%d",&p->mois);
@@ -22,6 +22,8 @@ int main(){
     printf("\t ===le jour est : %d",p->jour);
     printf("\t ===le mois est : %d", p->mois);
     printf("\t ===l annee est : %d",p->annee);
+
+    
 
 return 0;
 }
